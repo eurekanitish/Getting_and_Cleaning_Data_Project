@@ -121,7 +121,7 @@ savingresults(Modi_Data,"Answer_Part4_With_Descriptive_Variable_Names")
 ##savingresults(Modi_Data,"Tidy_Data_with_mean")
 tidy_dataset <- ddply(Modi_Data, .(Subject, Activity), .fun=function(x){ colMeans(x[,-c(1:2)]) })
 colnames(tidy_dataset)[-c(1:2)] <- paste(colnames(tidy_dataset)[-c(1:2)], "_mean", sep="")
-savingresultstxt(tidy_dataset,"Answer_Part5_independent_tidy_dataset.csv")
+savingresults(tidy_dataset,"Answer_Part5_independent_tidy_dataset.csv")
 
 savingresultstxt <- function(data,name) {
 file <- paste(Results, "/", name,".txt" ,sep="")
