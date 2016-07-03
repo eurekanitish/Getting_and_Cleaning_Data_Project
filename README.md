@@ -58,5 +58,5 @@ help of ddplyr function coming under
 plyr package.This is stored in 'Answer_Part5_independent_tidy_dataset.csv' of the Result folder. 
 'Answer_Part5_tidy.txt' file is also created with help of write.table function.
 10.Additionaly, this repo contains run_analysis.R (script file), tidy data set, code book explaining briefly 
-about code and the Result folder containing all files which we shall get once we run this script.
+about code and the Result folder containing all files which we shall get once we run this script .
 
