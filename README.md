@@ -1,4 +1,3 @@
-# Getting_and_Cleaning_Data_Project
 ###Getting and Cleaning Data Course Project###
  
 The purpose of this project is to demonstrate our ability to collect, work with, and clean a data set. 
@@ -42,21 +41,16 @@ in zip format.
 4. Unzip the Dataset.zip and places 'UCI HAR Dataset' in the DATA folder.
 5. Creates a Result subdirectory in the DATA folder where all the results shall be written in csv 
 format while the code runs.
-5. Read the train and test data and merge them via rbind and cbind and stored in Result folder as 
+6. Read the train and test data and merge them via rbind and cbind and merged data is stored in Result folder as 
 'Answer_Part1_Merged_Data.csv'.
-6. With help of text matching ability of grep function, variables containing mean and standard deviation
- are segregated to 
-create a subset of initial data and stored in Result folder as 'Answer_Part2_Only_Mean&Sdev.csv'.
-7. Descriptive names of Activity has been used to replace earlier used levels with help of factor function
- and modified subset data 
-is stored in the Result folder as 'Answer_Part3_With_Descriptive_Activity_Names.csv'.
-8. Then Descriptive name has been appropriately assigned to various variables replacing abbreviations 
-with full meaningful names. Modified data
-set thus created is stored in the Result folder as 'Answer_Part4_With_Descriptive_Variable_Names.csv'.
-9. Finally an independent tidy set has been created for average of each activity for each person with the 
-help of ddplyr function coming under
+7. With help of text matching ability of grep function, variables containing mean and standard deviation
+ are segregated to create a subset of initial data and stored in Result folder as 'Answer_Part2_Only_Mean&Sdev.csv'.
+8. Descriptive names of Activity has been used to replace earlier used levels with help of factor function
+ and modified subset data is stored in the Result folder as 'Answer_Part3_With_Descriptive_Activity_Names.csv'.
+9. Then Descriptive name has been appropriately assigned to various variables replacing abbreviations 
+with full meaningful names. Modified data set thus created is stored in the Result folder as 'Answer_Part4_With_Descriptive_Variable_Names.csv'.
+10. Finally an independent tidy set has been created for average of each activity for each person with the help of ddplyr function coming under
 plyr package.This is stored in 'Answer_Part5_independent_tidy_dataset.csv' of the Result folder. 
 'Answer_Part5_tidy.txt' file is also created with help of write.table function.
-10.Additionaly, this repo contains run_analysis.R (script file), tidy data set, code book explaining briefly 
-about code and the Result folder containing all files which we shall get once we run this script .
-
+11.Additionaly, this repo contains run_analysis.R (script file), tidy data set, code book explaining briefly 
+about code and the Result folder containing all files which we shall get once we run this script.
